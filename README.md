@@ -10,10 +10,39 @@ Three automated daily tasks run via Claude Code cron: journaling from git histor
 
 ## Setup
 
-1. Clone this repo into your Obsidian vault folder
-2. Open it in Obsidian
-3. Install [Claude Code](https://claude.ai/claude-code) if you haven't
-4. Open Claude Code in the vault root folder. The COO will onboard you on first session.
+### 1. Install Obsidian
+Download from [obsidian.md](https://obsidian.md/). Free for personal use. Available on Mac, Windows, Linux, iOS, Android.
+
+### 2. Install Claude Code
+```bash
+npm install -g @anthropic-ai/claude-code
+```
+Requires Node.js 18+. If you don't have Node, install it from [nodejs.org](https://nodejs.org/). You'll need an Anthropic API key or a Claude Pro/Max subscription.
+
+### 3. Clone this vault
+```bash
+cd ~/Documents  # or wherever you keep your vaults
+git clone https://github.com/hroyhong/Haoshan-Vault.git
+```
+
+### 4. Open in Obsidian
+Open Obsidian → "Open folder as vault" → select the `Haoshan-Vault` folder.
+
+### 5. Start the COO
+Open a terminal in the vault folder and run:
+```bash
+cd ~/Documents/Haoshan-Vault
+claude
+```
+The COO will detect it's the first session and onboard you with a few questions about who you are, what you're working on, and your priorities. Your answers get saved to `Life/Context/profile.md` and `todo.md`.
+
+### 6. Set up daily automations (optional)
+In Claude Code, create three scheduled tasks. Copy the prompts from:
+- `cron-prompts/daily-journal.md` — runs at 3 AM
+- `cron-prompts/morning-discovery.md` — runs at 5 AM
+- `cron-prompts/morning-briefing.md` — runs at 9 AM
+
+To create a scheduled task in Claude Code: open Claude Code → type `/schedule` → follow the prompts. Adjust the times to your schedule.
 
 ## Setting Up Daily Automations
 
