@@ -137,7 +137,7 @@ Characters can be fired. When fired, append to their handoff.md (newest on top):
 | Task | Time | What it does |
 |------|------|-------------|
 | Daily journal | 3 AM | Git diff → journal entry → move completed tasks → cascade Life/Context updates → commit |
-| Morning discovery | 5 AM | Vault deep-read → web research on adjacent topic → save to Inbox/ |
+| Morning discovery | 5 AM | Two jobs: (1) EXPLORE — find forgotten connections, search adjacent topics, save inspiration note in Inbox/. (2) HARVEST — add Purpose links to Notes/ missing them, flag notes mature enough to become output. |
 | Morning briefing | 9 AM | Carry over yesterday's unfinished items → create YYYY-MM-DD.md with calendar, priorities, forgotten items → classify any unclassified Inbox/ items into _Important/, _Mid/, or _Remove/ |
 
 ### Git
