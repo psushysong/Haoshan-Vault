@@ -1,3 +1,9 @@
+## 2026-04-08
+
+No activity. Vault dormant April 7-8. No git changes since "auto: morning 2026-04-06". Profile still unpopulated; no real projects or tasks exist. Morning briefing for April 6 is the last file touched.
+
+---
+
 ## 2026-04-05
 
 Built the vault from scratch. Eight commits across the day.
