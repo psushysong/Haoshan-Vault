@@ -1,3 +1,11 @@
+## 2026-04-25
+
+fallow: yes
+
+Vault dormant April 19-25 (7 days). No commits since "auto: morning 2026-04-19". No changes to any file. Profile still unpopulated; todo still template-only; no real projects exist. The three founding tasks carried since April 5 remain open — now day 21.
+
+---
+
 ## 2026-04-18
 
 No activity. Vault dormant April 18 (no commits since "auto: morning 2026-04-17"). Profile still blank, todo still template-only, no real projects. The three founding tasks — fill profile, populate todo, start a project — remain open for the 14th consecutive day.
